@@ -8,7 +8,7 @@ python.org
 code.visualstudio.com
 
 Given Installation guide is for Linux
-Notice that installation for Linux is little different than on Windows
+In windows change python3 to python and pip3 to pip 
 
 Create Python Virtual Environment
 ```
@@ -35,6 +35,7 @@ setuptools 44.1.1
 in VS Code's terminal open project folder with virtual environment and in terminal:
 ```
 pip3 install opencv-python
+pip3 install mediapipe
 pip3 install serial
 ```
 Move HandTrackingModule.py and main.py in hnd folder and launch main.py 
